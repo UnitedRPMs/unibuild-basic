@@ -7,9 +7,6 @@ Release:        1%{dist}
 Url:            https://unitedrpms.github.io/
 Requires:	x264
 Requires:	x265
-Requires:	lame
-Requires:	a52dec
-Requires:	libbluray
 Requires:	xvidcore
 Requires:	faad2
 Requires:	libdca
@@ -33,7 +30,7 @@ Requires:	vo-amrwbenc
 
 %description
 This is a metapaquete, for the basic construction in URPMS. 
-Specifically for a massive rebuild of packages by a release change. 
+Specifically for a massive rebuild of packages by a release change/new. 
 
 
 %prep
