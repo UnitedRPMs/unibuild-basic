@@ -23,7 +23,7 @@ Recommends:	libmpeg2
 Recommends:	libquicktime
 Recommends:	nvenc
 Recommends:	mjpegtools
-Recommends:	libmng
+#Recommends:	libmng
 Recommends:	libdvdcss
 Recommends:	vo-aacenc
 Recommends:	vo-amrwbenc	  
