@@ -12,7 +12,8 @@ jobs:
       - run: "wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/urpms" 
       - run: "chmod a+x urpms"
       - run: "dnf config-manager --set-disabled unitedrpms" 
-      - run: "./urpms -g UnitedRPMs/unibuild-basic -s unibuild-basic.spec -r true -d 'dist .fc27'"
+      - run: "dnf config-manager --set-disabled unitedrpms &&
+      ./urpms -g UnitedRPMs/unibuild-basic -s unibuild-basic.spec -r true -d 'dist .fc27'"
 notify:
   webhooks:
     # A list of hook hashes, containing the url field
