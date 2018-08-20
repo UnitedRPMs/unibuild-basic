@@ -3,7 +3,7 @@ Summary:        unibuild-basic metapackage
 License:	LGPLv3
 Source0: 	https://www.gnu.org/licenses/lgpl-3.0.txt
 Version:        0.1
-Release:        1%{dist}
+Release:        2%{dist}
 Url:            https://unitedrpms.github.io/
 Recommends:	x264
 Recommends:	x265
@@ -49,6 +49,9 @@ Specifically for a massive rebuild of packages by a release change/new.
 # Nothing here
 
 %changelog
+
+* Mon Aug 20 2018 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1-2
+- Mass rebuild F30
 
 * Tue Apr 04 2017 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1-1
 - Initial build
